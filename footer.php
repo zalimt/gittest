@@ -48,20 +48,11 @@
 						<?php if ( is_front_page() && ! is_paged() ) : ?>
 							<?php bloginfo( 'name' ); ?>
 						<?php else : ?>
-							<a href="<?php echo esc_url( home_url( '/' ) ); ?>"><?php bloginfo( 'name' ); ?></a>
+							<h1>TEST</h1>
 						<?php endif; ?>
 					<?php endif; ?>
 				<?php endif; ?>
 			</div><!-- .site-name -->
-			<div class="powered-by">
-				<?php
-				printf(
-					/* translators: %s: WordPress. */
-					esc_html__( 'Proudly powered by %s.', 'twentytwentyone' ),
-					'<a href="' . esc_url( __( 'https://wordpress.org/', 'twentytwentyone' ) ) . '">WordPress</a>'
-				);
-				?>
-			</div><!-- .powered-by -->
 
 		</div><!-- .site-info -->
 	</footer><!-- #colophon -->

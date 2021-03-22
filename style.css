@@ -5930,3 +5930,8 @@ body {
 	background-color: black;
 	color: white;
 }
+
+.entry-title {
+	color: green;
+	font-family: 'Open Sans', sans-serif;
+}
